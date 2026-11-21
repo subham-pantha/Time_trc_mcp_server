@@ -1,12 +1,12 @@
 [project]
-name = "timetrackproject"
+name = "timetrack"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "Cosmic882", email = "panthasubham88@gmail.com" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "mcp>=2.3.0",
     "fastapi>=0.141.1",
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-timetrackproject = "timetrackproject:main"
+timetrack = "timetrack:main"
 
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
